@@ -1,0 +1,186 @@
+.background{
+	background: url(../img/background.png) repeat transparent;
+}
+.frontside{
+	background: #FFFFFF;
+}
+#map-container { 
+	height: 30%;
+}
+#map-outer {  
+	height: 440px;
+	padding: 20px;
+	border: 2px solid #CCC;
+	margin-bottom: 20px;
+	background-color:#FFF;
+}
+#map-container {
+	height: 400px
+}
+#cuadroimagen{
+	max-width: 250px;
+}
+
+.botones-sociales {
+position: fixed;
+top: 130px;
+width: 45px;
+z-index: 9999;
+}
+.izquierda {
+left: 0;
+}
+.derecha{
+right: 0;
+}
+.botones-sociales #twitter-btn .social,
+.botones-sociales #facebook-btn .social,
+.botones-sociales #google-btn .social,
+.botones-sociales #pinterest-btn .social{
+background-color: #33353B;
+background-image: url(http://3.bp.blogspot.com/-opXRPqX4Ia4/UfFh1sDxJ1I/AAAAAAAAOps/Kl_mb2q-AZM/s1600/mas-icons.png);
+}
+.izquierda #facebook-btn span {
+background-position: right 10px;
+}
+.izquierda #twitter-btn span {
+background-position: right -35px;
+}
+.izquierda #google-btn span {
+background-position: right -127px;
+}
+.izquierda #pinterest-btn span {
+background-position: 11px -177px;
+}
+.derecha #facebook-btn span {
+background-position: 12px 10px;
+}
+.derecha #twitter-btn span {
+background-position: 11px -35px;
+}
+.derecha #google-btn span {
+background-position: 10px -127px;
+}
+.derecha #pinterest-btn span {
+background-position: 11px -177px;
+}
+.botones-sociales #facebook-btn:hover .social {
+background-color: #3B5998;
+}
+.botones-sociales #twitter-btn:hover .social {
+background-color: #62BDB2;
+}
+.botones-sociales #google-btn:hover .social {
+background-color: #DB4A39;
+}
+.botones-sociales #pinterest-btn:hover .social {
+background-color: #D43638;
+}
+.botones-sociales a:hover .texto{
+display: block;
+}
+.izquierda .social {
+-moz-transition: background-color 0.4s ease-in 0s;
+-webkit-transition: background-color 0.4s ease-in 0s;
+background-repeat: no-repeat;
+display: block;
+float: left;
+height: 43px;
+margin-bottom: 2px;
+width: 43px;}
+
+.izquierda .texto{
+display: none;
+float: right;
+font-size: 5em;
+font-weight: bold;
+margin: 11px 40px 11px 0px;
+white-space: nowrap;
+}
+.derecha .social {
+-moz-transition: background-color 0.4s ease-in 0s;
+-webkit-transition: background-color 0.4s ease-in 0s;
+background-repeat: no-repeat;
+display: block;
+float: right;
+height: 43px;
+margin-bottom: 2px;
+width: 43px;}
+
+.derecha .texto {
+display: none;
+float: left;
+font-size: 80%;
+font-weight: bold;
+margin: 11px 0 11px 40px;
+white-space: nowrap;
+}
+.botones-sociales .texto{
+color: #FFFFFF;
+}
+
+@media all and (max-width: 991px) {
+	#map-outer  { height: 650px }
+	
+}
+.input-group[class*="col-"] {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.ir-arriba {
+	display:none;
+	width: 40px;
+	height: 40px;
+	background: #000 url(../img/arrow.png) no-repeat top left;	
+	padding:20px;
+	position: fixed;
+	bottom:10px;
+	right:99px;
+	cursor: pointer;
+	opacity: 0.5;
+	border-radius: 50%;
+	box-shadow: 0 1px 1px rgba(255,255,255,0.8);
+}
+.ir-arriba:hover{
+	opacity: 1;
+}
+@media (max-width: 640px) {
+	.ir-arriba {
+		right:1px;
+	}
+}
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-ws5wru');
+	src:url('fonts/icomoon.eot?#iefix-ws5wru') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-ws5wru') format('woff'),
+		url('fonts/icomoon.ttf?-ws5wru') format('truetype'),
+		url('fonts/icomoon.svg?-ws5wru#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.MisionArriba{
+  padding-top:20px;
+}
+
+.VisionAbajo{
+  padding-top:60px;
+}
+
+.logo{
+	max-width: 35%;
+}
