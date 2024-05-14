@@ -1,0 +1,17 @@
+.MisionArriba{
+  padding-top:20px;
+}
+
+.VisionAbajo{
+  padding-top:60px;
+}
+
+.madre{  
+  background-image: url(../img/madre.jpg);
+  height: 500px;
+  width:  500px:;
+  padding: 20px;
+  border: 2px solid #CCC;
+  margin-bottom: 20px;
+  
+}
